@@ -17,7 +17,8 @@ int main() {
 
   for (int i = 0; i < size; i++) {
     x[i] = i + 3;
+    cout << x[i] << endl;
   }
-
+  // cout << size << endl;
   delete[] x;
 }
